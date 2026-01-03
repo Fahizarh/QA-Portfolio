@@ -1,13 +1,13 @@
 # 🐞 Bug Reports
 
-## 📖 Overview
+### 📖 Overview
 This folder contains **documented software defects** discovered during manual QA testing.  
 Each bug report includes key details to help developers understand, reproduce, and fix the issue.  
 These reports enhance communication across teams and contribute to overall product quality.
 
 ---
 
-## 🗂️ Bug Report Field Descriptions
+### 🗂️ Bug Report Field Descriptions
 
 | Field | Description |
 |:-------|:-------------|
