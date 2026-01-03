@@ -22,3 +22,14 @@ These reports enhance communication across teams and contribute to overall produ
 | **Related Test Cases** | Links to relevant manual or automated tests |
 
 ---
+### 👀 How to View Bug Report Files
+
+All bug reports in this folder are provided in **Excel (.xlsx) format**.
+
+To view or download a bug report file:
+
+1. Click on the desired **`.xlsx` file** in this folder.
+2. Click **View raw** (or **Download**) at the top of the file preview.
+3. Open the file using **Microsoft Excel**, **Google Sheets**, or any compatible spreadsheet application.
+
+> 📌 Viewing the file in raw/download mode preserves formatting, filters, and formulas.
