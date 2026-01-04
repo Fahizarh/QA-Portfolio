@@ -1,0 +1,28 @@
+{
+  "signUpDetails": {
+    "username": "Test User",
+    "email": "alpha.testing08@domain.com"
+  },
+
+  "existingSignUpDetails": {
+    "username": "Test User",
+    "email": "user.qa_test02@domain.com"
+  },
+
+  "testData": {
+    "username": "Test User",
+    "password": "password123",
+    "day": "15",
+    "month": "March",
+    "year": "1990",
+    "firstname": "John",
+    "lastname": "Doe",
+    "company": "Test Corp",
+    "address": "123 Test St",
+    "country": "United States",
+    "state": "California",
+    "city": "Los Angeles",
+    "zipcode": "90001",
+    "phoneNumber": "123-456-7890"
+  }
+}

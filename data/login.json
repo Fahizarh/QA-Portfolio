@@ -1,0 +1,12 @@
+{
+  "validLogInDetails": {
+    "email": "user.qa_test02@domain.com",
+    "password": "TestPassword@123",
+    "username": "Test User"
+  },
+
+  "invalidLogInDetails": {
+    "email": "usertest@domain.com",
+    "password": "TestPassword"
+  }
+}
