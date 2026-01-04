@@ -37,22 +37,13 @@ I am committed to **continuous learning** and have completed multiple QA courses
 
 This repository demonstrates my practical experience in:
 
-- 🧪 **Manual Testing**
-  - Well-structured test cases
-  - Test scenarios and checklists
-  - Bug report samples
+- 🧪 **Manual Testing**: Well-structured test cases, test scenarios, checklists, and bug report samples.
 
-- 🤖 **Test Automation**
-  - UI automation using Playwright and Cypress
-  - Page Object Model (POM)
+- 🤖 **Test Automation**: UI automation using Playwright and Cypress, and Page Object Model (POM).
 
-- 🔗 **API Testing**
-  - REST API testing with Postman
-  - Assertions, environments, and collections
-
-- 📄 **QA Documentation**
-  - Test plans and test strategies
-  - Testing best practices
+- 🔗 **API Testing**: REST API testing with Postman.
+  
+- 📄 **QA Documentation**: Test plans and test strategies.
  
 ---
  
@@ -83,9 +74,82 @@ qa-portfolio/
 
 ---
 
+### QA Projects & Experience
+Below are selected QA projects I have worked on across different domains and platforms.  
+Some of the project details are anonymized to respect confidentiality.
+
+### 1.🏥 Healthcare Risk Assessment Platform (Web & API)
+🔗 **Deployed Project:** [View Live](https://heliumdoc.com/ng/)
+- Performed end-to-end manual testing of patient risk evaluation workflows for Tuberculosis, Diabetes, and HIV.
+- Executed API testing to validate request and response accuracy.
+- Participated in regression testing before production releases.
+- Collaborated closely with developers to reproduce and resolve defects.
+  
+**Testing Types:** Manual, API, Regression. 
+
+**Tools:** Postman, Swagger, Jira.
+
+
+### 2.🤰 Antenatal Risk Stratification (ARS) System (Web & API)
+🔗 **Deployed Project:** [View Live](https://heliumdoc.com/ng/public-health/pregnancy-risk-assessment/1/)
+
+- Conducted manual testing of antenatal workflows used to assess pregnancy-related risks.
+- Validated risk stratification logic for maternal health indicators and clinical data inputs.
+- Executed API testing to ensure accurate data exchange between frontend and backend services.
+- Supported regression testing to maintain stability across releases.
+- Collaborated with cross-functional teams to identify, document, and resolve defects impacting patient care workflows.
+
+**Testing Types:** Manual, API, Regression  
+
+**Tools:** Postman, Swagger, Jira
+
+
+### 3.🧠 HeliumScribe – AI-Powered Clinical Documentation Tool (Web)
+🔒 **Deployed Project:** Internal application (link not publicly accessible)
+
+- Performed manual testing of an AI-powered tool designed to support doctors during patient consultations.
+- Tested both text-based and voice-based consultation inputs.
+- Tested concurrent usage scenarios involving multiple users performing consultations simultaneously.
+- Validated accurate transcription of recorded consultations into structured clinical text.
+- Verified correct conversion of transcripts into standardized SOAP Notes (Subjective, Objective, Assessment, Plan).
+- Ensured generated SOAP Notes were accurately auto-filled into encounter note forms.
+- Executed regression testing to maintain stability across AI-driven feature updates.
+- Collaborated closely with developers to identify, reproduce, and resolve defects related to transcription accuracy and data mapping.
+
+**Testing Types:** Manual, Functional, Regression  
+
+**Tools:** Jira, Browser DevTools
+
+
+### 4.🚚 Aztralli – Marketplace & Logistics Platform (Web)
+🔗 **Deployed Project:** [View Live](https://aztralli.com/)
+
+- Performed manual and functional testing on a marketplace and logistics application connecting buyers, sellers, and delivery services.
+- Validated core user flows, including listing items for sale, order placement, product requests, and delivery tracking.
+- Verified role-based access and user experience for wholesalers, consumers, retailers, and dispatch agents across different scenarios.
+- Documented defects with clear steps to reproduce, expected vs actual behavior, and supportive evidence.
+- Collaborated with developers and product teams during bug triage and release planning to improve product quality.
+
+**Testing Types:** Manual, Functional, Exploratory 
+
+
+### 5.🌍 The LifeDAO – Community-Owned Financial Platform (Web)
+🔗 **Deployed Project:** [View Live](https://thelifedao.io/en)
+
+- Participated in manual and automated functional testing of core user workflows on a community-owned financial platform built on blockchain principles. 
+- Validated user registration, login, and member interaction processes across key features such as community contributions and dashboard navigation.
+- Led bug hunt sessions every sprint, collaborating with cross-functional teams to identify high-priority defects early.
+- Reported defects with detailed reproduction steps, expected vs actual behavior, and collaborated with developers.
+- Conducted regression and smoke testing to ensure stability across iterative platform updates.
+
+**Testing Types:** Manual, Functional, Exploratory 
+**Tools:** Jira, Playwright, Postman.
+
+---
+
 ### 🌐 Frontend Projects
 
-### 💡 **Fun fact:**  
+#### 💡 **Fun fact:**  
 Before focusing fully on Quality Assurance, I spent time building frontend projects with HTML, CSS, and JavaScript. This background helps me test UI behavior more effectively, spot visual bugs faster, and collaborate better with frontend developers.
 
 Below are frontend projects I built using **HTML and CSS**, demonstrating my understanding of UI structure, styling, and responsive design.
