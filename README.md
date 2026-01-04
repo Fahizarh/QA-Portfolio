@@ -38,11 +38,8 @@ I am committed to **continuous learning** and have completed multiple QA courses
 This repository demonstrates my practical experience in:
 
 - 🧪 **Manual Testing**: Well-structured test cases, test scenarios, checklists, and bug report samples.
-
 - 🤖 **Test Automation**: UI automation using Playwright and Cypress, and Page Object Model (POM).
-
 - 🔗 **API Testing**: REST API testing with Postman.
-  
 - 📄 **QA Documentation**: Test plans and test strategies.
  
 ---
@@ -160,6 +157,24 @@ Below are frontend projects I built using **HTML and CSS**, demonstrating my und
 | Guess My Number Game | HTML, CSS, JavaScript | [View Live](https://fahizarh.github.io/Guess-The-Number/) | [Repo](https://github.com/Fahizarh/Guess-The-Number) |
 | Udemy Webpage Clone | HTML, CSS | [View Live](https://fahizarh.github.io/Udemy-Webpage-Clone/) | [Repo](https://github.com/Fahizarh/Udemy-Webpage-Clone) |
 | Portfolio Website | HTML, CSS | [View Live](https://fahizarh.github.io/Jane-Phillips-Portfolio/) | [Repo](https://github.com/Fahizarh/Jane-Phillips-Portfolio) |
+
+---
+
+### 📝 Publications & Articles
+
+I also actively contribute to the QA community by sharing insights, tutorials, and best practices in software testing.
+Here are some of my published works.
+
+| Title | Platform | Link |
+|:-------|:---------|:------|
+| What is Test Observability and How Does it Improve Testing Process | Testsigma | [Read Article](https://testsigma.com/blog/test-observability/) |
+| What is Module Testing: Test Automation and Best Practices | Testsigma | [Read Article](https://testsigma.com/blog/module-testing/) |
+| Understanding UAT Test Scripts: Definition and Templates | Testsigma | [Read Article](https://testsigma.com/blog/uat-test-scripts/) |
+| Top 10 Agile Myths and Facts for Software Testers | Testsigma | [Read Article](https://testsigma.com/blog/agile-myths/) |
+| The Foundation of Effective Software Testing: The 7 Core Principles | Medium | [Read Article](https://medium.com/@faizahsalami1/the-foundation-of-effective-software-testing-the-7-core-principles-c9ee738aeb9e) |
+| Getting Started with JMeter Load Testing: A Step-by-Step Guide | Medium | [Read Article](https://faizahsalami1.medium.com/getting-started-with-jmeter-load-testing-a-step-by-step-guide-e81138a7ccc1) |
+| A Beginner’s Guide to Pushing Codes from VS Code to GitHub using Git | Medium | [Read Article](https://faizahsalami1.medium.com/a-beginners-guide-to-pushing-codes-from-vs-code-to-github-using-git-part-1-fbea7bb482f) |
+| A Guide to Transitioning from Software Development to Testing | Hashnode | [Read Article](https://faizah.hashnode.dev/a-guide-to-transitioning-from-software-development-to-testing) |
 
 ---
 
