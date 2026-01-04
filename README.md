@@ -54,7 +54,6 @@ qa-portfolio/
 ├── automation/           # Test automation frameworks and scripts
 │   ├── playwright/       # Playwright UI automation tests
 │   └── cypress/          # Cypress end-to-end tests
-├── test-reports/         # Test execution reports and summary results
 └── README.md
 ```
 ---
@@ -67,7 +66,6 @@ qa-portfolio/
 | 📋 Bug Reports   | [Bug_Reports/](Bug_Reports/)      | Issue reports with reproduction steps and observed behavior                  |
 | 🗂️ Automation     | [Automation/](Automation/)        | Automation scripts for Playwright and Cypress                                |
 | 🔌 API Testing    | [API_Testing/](API_Testing/)      | Postman samples, mock API responses, request validations                     |
-| 📊 Test Reports   | [Test_Reports/](Test_Reports/)    | Metrics and release-level execution summaries                                 |
 
 ---
 
