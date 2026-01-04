@@ -65,7 +65,7 @@ qa-portfolio/
 |-----------------|------------------|-------------------------------------------------------------------------------|
 | 🧪 Test Cases    | [Test_Cases/](Test_Cases/)        | Functional test cases with clear steps and expected outcomes                 |
 | 📋 Bug Reports   | [Bug_Reports/](Bug_Reports/)      | Issue reports with reproduction steps and observed behavior                  |
-| 🗂️ Test Plans     | [Test_Plans/](Test_Plans/)        | Strategy documents outlining testing scope, goals, and approach             |
+| 🗂️ Automation     | [Automation/](Automation/)        | Automation scripts for Playwright and Cypress                                |
 | 🔌 API Testing    | [API_Testing/](API_Testing/)      | Postman samples, mock API responses, request validations                     |
 | 📊 Test Reports   | [Test_Reports/](Test_Reports/)    | Metrics and release-level execution summaries                                 |
 
