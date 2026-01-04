@@ -1,0 +1,52 @@
+{
+  "validCard": {
+    "number": "4242424242424242",
+    "expiry": "12/34",
+    "cvc": "123",
+    "name": "Anthony Luke"
+  },
+  "insufficientFunds": {
+    "number": "4000000000009995",
+    "expiry": "12/34",
+    "cvc": "123",
+    "name": "Anthony Luke",
+    "expectedError": "Your credit card was declined because of insufficient funds. Try paying with a debit card instead."
+  },
+  "expiredCard": {
+    "number": "4000000000000069",
+    "expiry": "12/25",
+    "cvc": "123",
+    "name": "Anthony Luke",
+    "expectedError": "Your card is expired. Try a different card."
+  },
+  "invalidCvc": {
+    "number": "4000000000000127",
+    "expiry": "12/25",
+    "cvc": "559",
+    "name": "Anthony Luke",
+    "expectedError": "Your card’s CVC is incorrect."
+  },
+  "invalidNumber": {
+    "number": "4242424242424241",
+    "expiry": "12/25",
+    "cvc": "223",
+    "name": "Anthony Luke",
+    "expectedError": "Your card number is invalid."
+  },
+
+  "processingError": {
+    "number": "4000000000000119",
+    "expiry": "12/25",
+    "cvc": "123",
+    "name": "Anthony Luke",
+    "expectedError": "An error occurred while processing your card. Try again."
+  },
+
+  "failedAuthentication": {
+    "number": "4000003800000446",
+    "expiry": "09/26",
+    "cvc": "087",
+    "name": "Anthony Luke",
+    "expectedError": "We are unable to authenticate your payment method. Please choose a different payment method and try again."
+  }
+}

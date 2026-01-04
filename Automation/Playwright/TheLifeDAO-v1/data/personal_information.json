@@ -1,0 +1,17 @@
+{
+  "validPersonalDetails": {
+    "country": "Saudi Arabia",
+    "phoneNumber": "0501234567",
+    "city": "Riyadh",
+    "address": "1234 Al-Madina Street, Al-Batha District",
+    "postalCode": "12788"
+  },
+
+  "invalidPersonalDetails": {
+    "country": "Saudi Arabia",
+    "phoneNumber": "9078654534",
+    "city": "Riyadh",
+    "address": "1234 Al-Madina Street, Al-Batha District",
+    "postalCode": "12788"
+  }
+}

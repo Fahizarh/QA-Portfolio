@@ -1,0 +1,27 @@
+{
+  "name": "takasure-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "bootstrap": "pnpm -r --parallel --if-present --stream --aggregate-output bootstrap",
+    "dev": "pnpm -r --parallel --if-present --stream --aggregate-output dev",
+    "build": "pnpm -r --parallel --if-present --stream --aggregate-output build",
+    "test": "pnpm -r --parallel --if-present --stream --aggregate-output test",
+    "pui:build": "pnpm -F=*pui build",
+    "pui:dev": "pnpm -F=*pui dev",
+    "pui:lint": "pnpm -F=*pui lint",
+    "pui:serve": "pnpm -F=*pui serve",
+    "ci:version": "pnpm changelog && pnpx changeset version && pnpm install --no-frozen-lockfile && git add ."
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^20",
+    "cypress": "^13.17.0",
+    "dotenv": "^16.5.0",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mailosaur": "^8.8.1"
+  }
+}
