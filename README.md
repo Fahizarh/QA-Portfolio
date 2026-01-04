@@ -72,8 +72,8 @@ qa-portfolio/
 ---
 
 ### QA Projects & Experience
-Below are selected QA projects I have worked on across different domains and platforms.  
-Some of the project details are anonymized to respect confidentiality.
+Below are some of the QA projects I have worked on across various domains and platforms.  
+Some project details have been anonymized to respect confidentiality.
 
 ### 1.🏥 Healthcare Risk Assessment Platform (Web & API)
 🔗 **Deployed Project:** [View Live](https://heliumdoc.com/ng/)
