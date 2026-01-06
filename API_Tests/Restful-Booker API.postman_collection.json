@@ -1,0 +1,338 @@
+{
+	"info": {
+		"_postman_id": "a9a39b09-d92e-441b-9ed3-a4405e2536ce",
+		"name": "Restful-Booker API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22835284",
+		"_collection_link": "https://no-team-3657.postman.co/workspace/bb4943a7-792b-4905-b8f4-182dd418969d/collection/22835284-a9a39b09-d92e-441b-9ed3-a4405e2536ce?action=share&source=collection_link&creator=22835284"
+	},
+	"item": [
+		{
+			"name": "Auth - Create Token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/auth",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Get All Booking Ids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/booking",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Filter Bookings by Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/booking?firstname=John&lastname=Smith",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking"
+					],
+					"query": [
+						{
+							"key": "firstname",
+							"value": "John"
+						},
+						{
+							"key": "lastname",
+							"value": "Smith"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Filter Booking by Check in and Check out time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/booking?checkin=2014-03-13&checkout=2014-05-21",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking"
+					],
+					"query": [
+						{
+							"key": "checkin",
+							"value": "2014-03-13"
+						},
+						{
+							"key": "checkout",
+							"value": "2014-05-21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Get Specific Booking by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/booking/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "906"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Create Booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"James\",\r\n    \"lastname\" : \"Brown\",\r\n    \"totalprice\" : 121,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2026-01-01\",\r\n        \"checkout\" : \"2026-01-02\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/booking",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Update Booking",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"James\",\r\n    \"lastname\" : \"Salami\",\r\n    \"totalprice\" : 230,\r\n    \"depositpaid\" : true,\r\n    \"bookingdates\" : {\r\n        \"checkin\" : \"2026-01-01\",\r\n        \"checkout\" : \"2026-01-04\"\r\n    },\r\n    \"additionalneeds\" : \"Breakfast\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/booking/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1392"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Partial Update Booking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"Faaizah\",\r\n    \"lastname\" : \"Salami\",\r\n}"
+				},
+				"url": {
+					"raw": "{{baseURL}}/booking/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "1392"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking - Delete Booking",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/booking/:id",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"booking",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "516"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ping - Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/ping",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": ""
+		}
+	]
+}
