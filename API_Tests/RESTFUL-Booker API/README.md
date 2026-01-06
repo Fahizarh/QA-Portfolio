@@ -4,7 +4,9 @@ This project was made to practice API testing skills in Postman. The API include
 
 ### Project Overview
 API Name: Restful-Booker
+
 Base URL: https://restful-booker.herokuapp.com/
+
 Documentation: https://restful-booker.herokuapp.com/apidoc/index.html
 
 ### ✅ API 1: Create Authentication Token
@@ -55,4 +57,5 @@ Documentation: https://restful-booker.herokuapp.com/apidoc/index.html
 - Description: A simple health check endpoint to confirm whether the API is up and running.
 - Request Method: GET
 - Response Code: 201 Created
+
 
