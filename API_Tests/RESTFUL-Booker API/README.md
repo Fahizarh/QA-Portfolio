@@ -7,8 +7,6 @@ API Name: Restful-Booker
 Base URL: https://restful-booker.herokuapp.com/
 Documentation: https://restful-booker.herokuapp.com/apidoc/index.html
 
----
-
 ### ✅ API 1: Create Authentication Token
 - API URL: https://restful-booker.herokuapp.com/auth
 - Description: Creates a new auth token to use for access to the PUT and DELETE /booking
@@ -57,3 +55,4 @@ Documentation: https://restful-booker.herokuapp.com/apidoc/index.html
 - Description: A simple health check endpoint to confirm whether the API is up and running.
 - Request Method: GET
 - Response Code: 201 Created
+
