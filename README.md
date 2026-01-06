@@ -1,5 +1,3 @@
-Merge README.md
-
 # QA Portfolio | Faizah Salami
 
 ### Welcome to my **Quality Assurance Portfolio** 👋
