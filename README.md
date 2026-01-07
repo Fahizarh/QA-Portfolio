@@ -139,6 +139,7 @@ Some project details have been anonymized to respect confidentiality.
 - Conducted regression and smoke testing to ensure stability across iterative platform updates.
 
 **Testing Types:** Manual, Functional, Exploratory
+
 **Tools:** Jira, Playwright, Postman.
 
 ---
@@ -147,7 +148,7 @@ Some project details have been anonymized to respect confidentiality.
 
 #### 💡 **Fun fact:**
 
-Before focusing fully on Quality Assurance, I spent time building frontend projects with HTML, CSS, and JavaScript. This background helps me test UI behavior more effectively, spot visual bugs faster, and collaborate better with frontend developers.
+Before focusing fully on Quality Assurance, I spent time building frontend projects with HTML, CSS, and JavaScript. This background enables me to test UI behavior more effectively, identify visual bugs more quickly, and collaborate more effectively with frontend developers.
 
 Below are frontend projects I built using **HTML and CSS**, demonstrating my understanding of UI structure, styling, and responsive design.
 
