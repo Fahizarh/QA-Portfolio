@@ -6,7 +6,7 @@ This repository showcases my experience, skills, and approach to delivering high
 
 ### 👩‍💻 About Me
 
-My name is **Faizah Salami**, a **Software QA Engineer** with over **three years of experience** in the software industry. I specialize in ensuring the quality, reliability, and functionality of software applications across different domains, including **e-commerce** and **healthcare**. I have hands-on experience in manual testing, UI test automation, and API testing.
+My name is **Faizah Salami**, a **Software QA Engineer** with over **three years of experience** in the software industry. I specialize in ensuring the quality, reliability, and functionality of software applications across different domains, including **e-commerce, fintech**, and **healthcare**. I have hands-on experience in manual testing, UI test automation, and API testing.
 
 I am committed to **continuous learning** and have completed multiple QA courses and certifications, enabling me to adopt modern tools, frameworks, and best practices efficiently. I am driven by a strong attention to detail and a passion for delivering products that meet both business and user expectations.
 
