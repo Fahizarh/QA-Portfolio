@@ -12,8 +12,8 @@ I am committed to **continuous learning** and have completed multiple QA courses
 
 - **🔗LinkedIn:** [Faizah Salami](https://www.linkedin.com/in/faizah-salami)
 - **📧Email:** [faizahsalami1@gmail.com](mailto:faizahsalami1@gmail.com)
-- **📄Resume:** [Download PDF](https://drive.google.com/file/d/1L3IAQV8a924dg4aIrLCy2CSYd4HAUl7K/view?usp=drive_link)
-- **📍Location:** Benin City, Nigeria 🌍
+- **📄Resume:** [Download PDF](https://drive.google.com/file/d/1moqTVvX569UqsfRgliVnOdDKTjxDlpS4/view?usp=sharing)
+- **📍Location:** Nigeria 🌍
 
 ---
 
