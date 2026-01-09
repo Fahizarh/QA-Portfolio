@@ -124,7 +124,6 @@ Some project details have been anonymized to respect confidentiality.
 - Validated core user flows, including listing items for sale, order placement, product requests, and delivery tracking.
 - Verified role-based access and user experience for wholesalers, consumers, retailers, and dispatch agents across different scenarios.
 - Documented defects with clear steps to reproduce, expected vs actual behavior, and supportive evidence.
-- Collaborated with developers and product teams during bug triage and release planning to improve product quality.
 
 **Testing Types:** Manual, Functional, Exploratory
 
