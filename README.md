@@ -78,7 +78,7 @@ Some project details have been anonymized to respect confidentiality.
 
 - Performed end-to-end manual testing of patient risk evaluation workflows for Tuberculosis, Diabetes, and HIV.
 - Executed API testing to validate request and response accuracy.
-- Participated in regression testing before production releases.
+- Conducted regression testing before production releases.
 - Collaborated closely with developers to reproduce and resolve defects.
 
 **Testing Types:** Manual, API, Regression.
@@ -92,7 +92,7 @@ Some project details have been anonymized to respect confidentiality.
 - Conducted manual testing of antenatal workflows used to assess pregnancy-related risks.
 - Validated risk stratification logic for maternal health indicators and clinical data inputs.
 - Executed API testing to ensure accurate data exchange between frontend and backend services.
-- Supported regression testing to maintain stability across releases.
+- Conducted regression testing to maintain stability across releases.
 - Collaborated with cross-functional teams to identify, document, and resolve defects impacting patient care workflows.
 
 **Testing Types:** Manual, API, Regression
