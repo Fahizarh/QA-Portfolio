@@ -6,13 +6,17 @@ This repository showcases my experience, skills, and approach to delivering high
 
 ### 👩‍💻 About Me
 
-My name is **Faizah Salami**, a **Software QA Engineer** with over **three years of experience** in the software industry. I specialize in ensuring the quality, reliability, and functionality of software applications across different domains, including **e-commerce, fintech**, and **healthcare**. I have hands-on experience in manual testing, UI test automation, and API testing.
+Quality Assurance Engineer with over 3 years of experience testing web, mobile, and API-driven applications across
+healthtech, fintech, and e-commerce. Experienced in manual and automated testing using Playwright, Cypress, and
+Postman, with strong skills in translating requirements into test scenarios, identifying defects, and prioritising
+critical workflows. Detail-oriented, risk-focused, and experienced in collaborating with cross-functional teams to
+support high-quality releases in Agile environments.
 
 I am committed to **continuous learning** and have completed multiple QA courses and certifications, enabling me to adopt modern tools, frameworks, and best practices efficiently. I am driven by a strong attention to detail and a passion for delivering products that meet both business and user expectations.
 
 - **🔗LinkedIn:** [Faizah Salami](https://www.linkedin.com/in/faizah-salami)
 - **📧Email:** [faizahsalami1@gmail.com](mailto:faizahsalami1@gmail.com)
-- **📄Resume:** [Download PDF](https://drive.google.com/file/d/1D29pIqvvGL7R6GK8SRBLmA_VOD3kKLxX/view?usp=sharing)
+- **📄Resume:** [Download PDF](https://drive.google.com/file/d/1lDz0YUU0c4tmHNBBPo1AzHse4v67s5ek/view?usp=sharing)
 - **📍Location:** Nigeria 🌍
 
 ---
